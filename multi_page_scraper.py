@@ -49,10 +49,9 @@ for page in range(1, 4):
 #  crate dateframe and Save as CSV
 df = pd.DataFrame(all_data)
 
-# 11/Jul/25 Data Cleaning with str.replace, float()
-# Remove "£" from Price array and change the data type into float
-# for future filtering and analysis processes
-df["Price"] = df["Price"].str.replace("£","",regex=False).astype(float)
+# 11/Jul/25 Data Cleaning with pandas str.replace, float()
+# Remove "£" from Price array and change data type into float
+df["Price"] = df["Price"].str.replace("£", "", regex=False).astype(float)
 df.to_csv("multi_page_output.csv", index=False, encoding="utf-8-sig")
 print(f"{len(all_data)}books data has been scraped and saved in multi_page_output.csv")
 

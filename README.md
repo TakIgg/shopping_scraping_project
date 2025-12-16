@@ -1,3 +1,9 @@
+## Overview
+This project demonstrates an end-to-end workflow of web scraping
+and data analysis using Python. It covers data extraction, cleaning,
+local database storage, and basic dashboard-style visualisation.
+
+The target website is Books to Scrape, a sandbox site for scraping practice.
 # 📚 Book Scraper & Dashboard Project
 
 This project demonstrates the complete workflow of web data extraction, data cleaning, local database storage, and interactive dashboard visualization using Python. The target website is [Books to Scrape](https://books.toscrape.com), a sandbox site designed for practicing scraping.

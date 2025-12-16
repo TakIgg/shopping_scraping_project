@@ -7,7 +7,7 @@ The target website is [Books to Scrape](https://books.toscrape.com), a sandbox s
 
 ## 🔧 Technologies Used
 
-- Python 3
+Python 3
 - `requests` / `BeautifulSoup` – for web scraping
 - `pandas` – for data cleaning and CSV output
 - `sqlite3` – for local structured data storage
